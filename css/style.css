@@ -1,0 +1,73 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: teal;
+  font-family: verdana;
+}
+
+.login-form {
+  background: #222;
+  height: auto;
+  max-height: 1000px;
+  width: 300px;
+  padding: 70px 30px;
+  border-radius: 12px;
+  box-shadow: 3px 3px 10px #000;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1, label {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+input {
+  height: 40px;
+  width: 100%;
+  margin-bottom: 20px;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+
+input[type="text"],
+input[type="password"]{
+  background: transparent;
+  border-bottom: 1px solid #444;
+  font-size: 1em;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-bottom: 1px solid #fff;
+  transition: .7s;
+}
+
+input[type="submit"] {
+ background: teal;
+ font-size: 1.2em;
+ border-radius: 20px;
+}
+
+input[type="submit"]:hover {
+  background: #055;
+  color: #ddd;
+  cursor: pointer;
+}
+
+input[type="submit"]:active {
+  transform: scale(0.9);
+}
